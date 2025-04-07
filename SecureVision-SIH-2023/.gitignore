@@ -1,0 +1,32 @@
+# System files
+.DS_Store
+._*
+.fseventsd/
+.Spotlight-V100/
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Dataset and trained models
+dataset/
+data/
+encodings.pickle
+faces_data.pkl
+names.pkl
+
+# YOLO weights (if large or proprietary)
+Yolo-weights/
+
+# Output videos or media
+*.mp4
+*.avi
+
+# Documents and private files
+*.docx
+*.pdf
+RelatedDocs/
